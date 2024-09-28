@@ -8,7 +8,7 @@ function api(){
     let country=document.getElementById("country");
     let SearchTime=document.getElementById("time")
 
-    fetch(`http://api.weatherapi.com/v1/current.json?key=d3093041333f485296f111508242609&q=${userInput}`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=d3093041333f485296f111508242609&q=${userInput}`)
     .then(res=>res.json())
     .then(data=>{
             
