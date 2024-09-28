@@ -14,7 +14,7 @@
         <h2><b>HOME PAGE</b></h2>
         <div class="container">
         <div class="item">
-  <div class="card3" style="width:14rem; height: 7rem;">Map</div>
+  <div class="card3" style="width:14rem; height: 7rem;"><h6> Map</h6></div>
   
   <div class="card-body3">
   <p class="card-text"></p>
@@ -22,7 +22,7 @@
   <a href="" class="link"></a>
 </div>
 
-<div class="card3" style="width:14rem; height: 7rem;">Other</div>
+<div class="card3" style="width:14rem; height: 7rem;"><h6>Other</h6></div>
 <div class="card-body3">
 <p class="card-text"></p>
 <img src="" alt="">
@@ -31,7 +31,19 @@
 </div>
 <div class="item">
  
-<div class="card1" style="width:24rem; height: 24rem;"> <p class="card-text"></p></div>
+<div class="card1" style="width:24rem; height: 24rem;">
+  <div class="container1">
+    <div class="row">
+    l<h4>temp-c</h4><h5 id="c">cen:ce</h5>
+    <h4>City</h4><h5 id="city">city1:city</h5>
+    <h4>Province</h4><h5 id="region">Province</h5>
+    <h4>Country</h4><h5 id="country">country</h5>
+    <h4>Time</h4><h5 id="time">SearchTime</h5>
+    
+    
+</div>
+</div>
+ <p class="card-text"></p></div>
 <div class="card-body">
  <a href="" class="link"></a>
 </div>
@@ -40,8 +52,8 @@
 </div>
 
 <div class="card2" style="width:50rem; height: 8rem;">
-  <p> Search Area: <input class="text1" type="text">
-                    <button>Search</button></p>
+  <p1> Search Area: <input class="text1" type="text" id="textInput">
+                    <button onclick="api()" class="btn1">Search</button></p1>
   <div class="card-body2">
   
   </div></div>
@@ -52,6 +64,6 @@
       </div>    
   </div>   
       </div>
-      
+      <script src="script/app.js"></script>
 </body>
 </html>

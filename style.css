@@ -11,6 +11,7 @@ body{
     padding-top: 4%;
     margin: 10%;
     margin-top: 1%;
+    margin-bottom: 1%;
     padding-bottom: 3%;
 }
 h2{
@@ -35,6 +36,7 @@ h3{
     background-color: rgba(35, 135, 8, 0.586) ;
     margin: 2%;
     border-radius: 20%;
+    
 }
 .card1{
 background-color: rgba(35, 135, 8, 0.586);
@@ -48,18 +50,45 @@ height: 10%;
 .text1{
     
 }
-p{
-margin-left: 10%;
+h5{
+margin-left: 50%;
 margin-top: 30%;
+color: aqua;
 
 }
 .text1{
+    border: 0;
     width:60%;
-    border-radius: 10%;
+    border-radius: 30%;
     background-color: rgba(124, 203, 126, 0.544);    
-    
+    flex: 1;
+    padding: 10px 25px;
+    margin-top:5%;
+    margin-left: 10%;
+
 }
 button{
     background-color: rgba(82, 211, 86, 0.604);
+    border-radius: 20%;
 
+}
+b{
+    font-size: 130%;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(131, 235, 151);
+}
+h4{
+    color: rgb(142, 220, 133);
+    margin-left: 20%;
+}
+p1{
+    margin-top: 40%;
+    font-size: 140%;
+    border-radius: 20%;
+}
+btn1{
+    border-radius: 20%;
+}
+h6{
+    margin-top: 160%;
 }
